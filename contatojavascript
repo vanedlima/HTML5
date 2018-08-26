@@ -1,5 +1,31 @@
-<script language="JavaScript">
-alert('Agradeço sua visita! Para contato, preencha o formulário abaixo.')
-</script> 
-<br />
-<script src="http://form.jotformz.com/jsform/50970492780664" type="text/javascript"></script>
+<<!doctype html>
+<html>
+	<head>
+		<title>
+			Formul&aacute;rios
+		</title>
+	</head>
+		<body>
+		<script language="JavaScript">alert('Agradeço sua visita! Para contato, preencha o formulário abaixo.')</script> <br />
+
+			<form action="/paginadados" method="post">
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" value="Escreva aqui " />
+			</div>
+			<p>
+			<p>
+			<div>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" value="Escreva aqui "/>
+			</div>
+			<p>
+			<p>
+			<div>
+				<label for="msg">Mensagem:</label>
+				<textarea type="text" ></textarea>
+			</div>
+			</form>
+			
+		</body>
+</html>
