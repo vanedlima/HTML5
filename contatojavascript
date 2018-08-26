@@ -1,31 +1,29 @@
-<<!doctype html>
+<!doctype html>
 <html>
 	<head>
 		<title>
-			Formul&aacute;rios
+			Contato
 		</title>
 	</head>
 		<body>
 		<script language="JavaScript">alert('Agradeço sua visita! Para contato, preencha o formulário abaixo.')</script> <br />
-
-			<form action="/paginadados" method="post">
-			<div>
-				<label for="nome">Nome:</label>
-				<input type="text" id="nome" value="Escreva aqui " />
-			</div>
-			<p>
-			<p>
-			<div>
-				<label for="email">E-mail:</label>
-				<input type="email" id="email" value="Escreva aqui "/>
-			</div>
-			<p>
-			<p>
-			<div>
-				<label for="msg">Mensagem:</label>
-				<textarea type="text" ></textarea>
-			</div>
-			</form>
+			
+			<!-- Início-->Preencha o formulário:<br />
+		<br />
+			<span style="font-family: Arial; font-size: medium;">
+				Nome: <input name="nome" size="60" type="text" /><br />
+				<br />
+				E-Mail: <input name="email" size="60" type="text" /><br />
+				<br />
+				Assunto: <input name="assunto" size="58" type="text" /><br /><br />Mensagem: </span><br />
+				<br />
+				<textarea cols="50" name="mensagem" rows="10"></textarea><br />
+				<br />
+				<input name="redirecionar" type="hidden" value="https://morangoselima.blogspot.com/b/post-preview?token=9brsmEwBAAA.8c43yctyr97gnI3-PUilGg.T7PdFSOx65RBHa27K56BNg&amp;postId=3986208807358635636&amp;type=PAGE/obrigado.php" /><br />
+				<input name="Enviar" type="submit" value="Enviar" /><br /><p/>
+				<input type="reset" value="Limpar" /><br />
+				<br />
+			<!-- Final-->
 			
 		</body>
 </html>
