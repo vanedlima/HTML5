@@ -15,13 +15,13 @@
 			<p>
 			<div>
 				<label for="email">E-mail:</label>
-				<input type="email" id="email"value="Escreva aqui "/>
+				<input type="email" id="email" value="Escreva aqui "/>
 			</div>
 			<p>
 			<p>
 			<div>
 				<label for="msg">Mensagem:</label>
-				<textarea id="msg" value="Escreva aqui "></textarea >
+				<textarea type="text" ></textarea>
 			</div>
 			</form>
 			
