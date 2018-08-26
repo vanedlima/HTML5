@@ -24,6 +24,9 @@
 				<textarea type="text" ></textarea>
 			</div>
 			</form>
+			 <input name="redirecionar" type="hidden" value="https://morangoselima.blogspot.com/b/post-preview?token=9brsmEwBAAA.8c43yctyr97gnI3-PUilGg.T7PdFSOx65RBHa27K56BNg&amp;postId=3986208807358635636&amp;type=PAGE/obrigado.php" /><br />
+	        	<input name="Enviar" type="submit" value="Enviar" /><br /><p/>
+			<input type="reset" value="Limpar" /><br />
 			
 		</body>
 </html>
