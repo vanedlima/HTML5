@@ -6,27 +6,40 @@
 		</title>
 	</head>
 		<body>
+		<H2>Críticas e Sugestões</H2>
+		<FORM action="mailto:seu-email" method="post" enctype="text/plain">
+		<P>Preencha o formulário a seguir com suas críticas e sugestões sobre este site:</P>
 			<form action="/paginadados" method="post">
-			<div>
+				<div class="row">
 				<label for="nome">Nome:</label>
-				<input type="text" id="nome" value="Escreva aqui " />
+				<input type="text" id="nome" size="60" value="Escreva aqui " />
 			</div>
 			<p>
 			<p>
-			<div>
+			<div class="row">
 				<label for="email">E-mail:</label>
-				<input type="email" id="email" value="Escreva aqui "/>
+				<input type="email" id="email" size="60" value="Escreva aqui "/>
 			</div>
 			<p>
 			<p>
-			<div>
-				<label for="msg">Mensagem:</label>
-				<textarea type="text" ></textarea>
+			<div class="row">
+				<label for="msg">Assunto:</label>
+				<input name="assunto" type="text" size="60" value="Escreva aqui " />
+				<br />
+				<p/>
 			</div>
-			</form>
-			 <input name="redirecionar" type="hidden" value="https://morangoselima.blogspot.com/b/post-preview?token=9brsmEwBAAA.8c43yctyr97gnI3-PUilGg.T7PdFSOx65RBHa27K56BNg&amp;postId=3986208807358635636&amp;type=PAGE/obrigado.php" /><br />
-	        	<input name="Enviar" type="submit" value="Enviar" /><br /><p/>
-			<input type="reset" value="Limpar" /><br />
-			
+			<div class="row">
+				<label class="required" for="message">Mensagem:</label>
+				<textarea id="message" class="input" name="message"  size="60" ></textarea><br />
+				<span id="message_validation" class="error_message"></span>
+				<br/>
+			</div>
+			<div class="row">	
+				<input name="redirecionar" type="hidden" value="https://morangoselima.blogspot.com/b/post-preview?token=9brsmEwBAAA.8c43yctyr97gnI3-PUilGg.T7PdFSOx65RBHa27K56BNg&amp;postId=3986208807358635636&amp;type=PAGE/obrigado.php" /><br />
+				<INPUT type="submit" name="b1" value="Enviar">
+				<INPUT type="reset"  name="b2" value="Limpar">
+			</div>
+				
+				
 		</body>
 </html>
